@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'gilroy_regular';
+    src:url('/fonts/gilroy/gilroy-regular.woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'gilroy_heavy';
+    src:url('/fonts/gilroy/gilroy-heavy.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'palatino-linotype-bold';
+    src:url('/fonts/palatinolinotype/palatinolinotype_bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'gilroy_bold';
+    src:url('/fonts/gilroy/gilroy-bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'slick';
+    src:url('/fonts/slick/slick.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'slick';
+    src: url('/fonts/slick/slick.eot');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'slick';
+    src: url('/fonts/slick/slick.woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'gilroy_semibold';
+    src: url('/fonts/gilroy/gilroy-semibold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'cera_pro_regular';
+    src: url('/fonts/cera_pro/cera_pro_regular.otf');
+    font-style: normal;
+    font-weight: bold;
+}
