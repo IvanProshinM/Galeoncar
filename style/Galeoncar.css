@@ -19,6 +19,7 @@ header {
 }
 
 .center-alignment {
+    position: relative;
     width: 1920px;
     margin: 0 auto;
 }
@@ -115,6 +116,22 @@ header {
     color: white;
 }
 
+.menu {
+    display: flex;
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 19px;
+    color: white;
+}
+
+.footer__menu {
+    display: flex;
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 19px;
+    color: white;
+    justify-content: center;
+
+}
+
 .menu_p {
     margin-top: 36px;
 }
@@ -124,13 +141,16 @@ header {
     flex-direction: column;
 }
 
+.menu__part:hover {
+    margin-right: 26px;
+    flex-direction: column;
+    color: #EDC5A2;
+}
+
 .menu__part_p {
 
 }
 
-#first_word {
-    color: #EDC5A2;
-}
 
 .social-nets {
     display: flex;
@@ -145,7 +165,7 @@ header {
     margin-left: 11px;
 }
 
-#vk_p {
+.vk_p {
     margin-top: 3px;
 }
 
@@ -203,7 +223,7 @@ header {
 }
 
 .main-part {
-
+    position: relative;
     width: 100%;
     background: url("/img/main_banner.png") no-repeat;
     background-size: cover;
@@ -377,14 +397,14 @@ header {
     position: absolute;
     background: url('../img/arrow_right.png') 0 0/ 100% no-repeat;
     right: -5px;
-    top: 327px;
+    top: 326px;
 }
 
 .main-part__slider .slick-arrow.slick-next:hover {
     position: absolute;
     background: url('../img/arrow_right_hover.png') 0 0/ 100% no-repeat;
     right: -5px;
-    top: 327px;
+    top: 326px;
 }
 
 .main-part__slider .slick-dots {
@@ -458,8 +478,8 @@ header {
 }
 
 .main-part .slider__point_p {
-    right: 250px;
-    top: 130px
+    right: 298px;
+    top: 347px
 }
 
 .rent-part {
@@ -520,6 +540,23 @@ header {
     text-decoration: none;
     align-items: center;
     justify-content: center;
+}
+
+.item__button-link:hover {
+    display: flex;
+    position: absolute;
+    font-family: "gilroy_semibold", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    width: 222px;
+    height: 48px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: #EDC5A2;
 }
 
 .item__button-link_p {
@@ -685,7 +722,7 @@ header {
 }
 
 .conditions-part__menu a {
-    color: white;
+
     font-family: "gilroy_bold", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
@@ -714,6 +751,15 @@ header {
     cursor: pointer;
     margin-bottom: 15px;
     margin-top: 20px;
+    color: white;
+}
+
+.conditions-part__link:hover {
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #EDC5A2;
 }
 
 .conditions-part_text li {
@@ -1012,6 +1058,7 @@ header {
     font-family: "gilroy_regular", sans-serif;
     font-size: 18px;
     color: #EDC5A2;
+    text-decoration: none;
 }
 
 .comment__add_p {
@@ -1038,7 +1085,7 @@ header {
     position: absolute;
     background: transparent;
     display: flex;
-    top:81px;
+    top: 81px;
     right: 78px;
 }
 
@@ -1097,4 +1144,354 @@ header {
     right: 11px;
 }
 
+.center-alignment_reviews {
+    position: relative;
+}
 
+.reviews-part__video-img {
+    width: 972px;
+    height: 421px;
+}
+
+.reviews-part__video_p {
+    position: relative;
+    float: right;
+    margin-top: -280px;
+    text-align: center;
+}
+
+.play-button {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.play-button_p {
+    left: 455px;
+    top: 154px
+}
+
+.play__arrow {
+    position: absolute;
+    border: 30px solid transparent;
+    border-left: 30px solid white;
+}
+
+.play__arrow_p {
+    left: 46px;
+    top: 26px;
+}
+
+.play__frame {
+    position: absolute;
+    width: 947px;
+    height: 420px;
+    background: transparent;
+    border: 1px solid #EDC5A2;
+}
+
+.play__frame_p {
+    top: -180px;
+    left: -432px;
+}
+
+.center-alignment_contacts {
+    position: relative;
+}
+
+.contacts-part {
+    background: url("/img/contact_background.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 615px;
+}
+
+.conditions-part__location-icon {
+    position: absolute;
+    height: 111px;
+    width: 98px;
+    left: 463px;
+    top: 175px;
+}
+
+.contacts-part__content-field {
+
+    background: #232731;
+    padding: 26px 0 20px 45px;
+    position: absolute;
+    width: 570px;
+
+}
+
+.contacts-part__content-field_p {
+    left: 948px;
+    top: 69px;
+
+}
+
+.content-field__item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.content-field__item_p {
+
+}
+
+.content-title {
+    font-family: "gilroy_black", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content-text {
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 16px;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.content-text_p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.close-icon {
+
+}
+
+.close-icon:before, .close-icon:after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    background: white;
+    top: 15px;
+    left: 518px;
+}
+
+.close-icon:before {
+    transform: rotate(45deg);
+}
+
+.close-icon:after {
+    transform: rotate(-45deg);
+}
+
+.content-field__location-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.content-field__location-icon_p {
+    top: 21px;
+    left: -2px;
+}
+
+.item__text {
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    line-height: 25px;
+
+}
+
+.item__text_p {
+    margin-left: 42px;
+    margin-top: 10px;
+}
+
+.item__bottom-text {
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 14px;
+
+    color: #CFCFCF;
+}
+
+.content-field__mail-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+.content-field__mail-icon_p {
+    top: 108px;
+    left: 2px;
+}
+
+.item__text_p-mail {
+    margin-left: 41px;
+    margin-top: 32px;
+}
+
+.content-field__item_button {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-field__button {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content-field__button_p {
+
+}
+
+.number_top {
+    font-family: "gilroy_black", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.number {
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 14px;
+    color: #CFCFCF;
+    line-height: 22px;
+}
+
+.number_p {
+    margin-top: 56px;
+    padding-left: 63px;
+}
+
+.button__rent {
+    width: 222px;
+    height: 48px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 6px;
+    font-family: "gilroy_bold", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button__rent:hover {
+    width: 222px;
+    height: 48px;
+    border: 1px solid white;
+
+    border-radius: 6px;
+    font-family: "gilroy_bold", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #EDC5A2;
+}
+
+.button__rent_p {
+    margin-top: 51px;
+}
+
+.nets__text {
+    font-family: "gilroy-regular", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.nets__text_p {
+    margin-top: 41px;
+    margin-left: -1px;
+}
+
+.content-field__nets {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-nets_p-contacts {
+    margin-top: 38px;
+    margin-left: 174px;
+}
+
+.contacts-part_line_top {
+    position: absolute;
+    top: 108px;
+}
+
+.contacts-part_line_bottom {
+    position: absolute;
+    top: 40px;
+}
+
+footer {
+    background: #15171E;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.footer__menu_p {
+    margin-top: 56px;
+}
+
+.footer__line_left {
+    background-color: grey;
+    float: left;
+    height: 1px;
+    width: 860px;
+    margin-top: 5px;
+}
+
+.footer__line_right {
+    background-color: grey;
+    float: right;
+    height: 1px;
+    width: 860px;
+    margin-top: 5px;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 65px;
+
+}
+
+.copyright__text {
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+.footer__copyright_p {
+
+}
+
+.footer_politics {
+    font-family: "gilroy_regular", sans-serif;
+    font-size: 18px;
+    color: #CFCFCF;
+
+}
+
+.footer_politics_p {
+    margin-top: 18px;
+}
+
+.social-nets_p-footer {
+    margin-top: 22px;
+    justify-content: center;
+    margin-left: -12px;
+}
+
+.social-nets__icon_p-footer {
+    margin-left: 20px;
+}

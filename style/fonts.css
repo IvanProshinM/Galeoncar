@@ -53,3 +53,9 @@
     font-style: normal;
     font-weight: bold;
 }
+@font-face {
+    font-family: 'gilroy_black';
+    src: url('/fonts/gilroy/gilroy-black.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
